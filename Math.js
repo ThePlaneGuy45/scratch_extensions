@@ -28,11 +28,11 @@ class Advanced {
                     }
                 }
             ]
-            exp({a, b}) {
-                return a^b;
-            };
         };
     }
+    exp({a, b}) {
+        return a^b;
+    };
 }
 class Vector {
     constructor (runtime) {
@@ -79,12 +79,12 @@ class Vector {
                     }
                 }
             ]
-            vec2({x, y}) {
-                return slist([x, y]);
-            };
-            vec3({x, y, z}) {
-                return slist([x, y, z]);
-            };
         };
     }
+    vec2({x, y}) {
+        return slist([x, y]);
+    };
+    vec3({x, y, z}) {
+        return slist([x, y, z]);
+    };
 }
