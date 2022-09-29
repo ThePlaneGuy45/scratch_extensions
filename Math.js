@@ -11,6 +11,7 @@ class Advanced {
         return {
             id: 'advanced',
             color1: '#ff1a1a',
+            color2: '#ad1313',
             name: 'Advanced Math',
             blocks: [
                 {
