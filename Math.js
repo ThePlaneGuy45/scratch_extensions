@@ -31,7 +31,7 @@ class Advanced {
         };
     }
     exp({a, b}) {
-        return a^b;
+        return Math.pow(a, b);
     };
 }
 class Vector {
