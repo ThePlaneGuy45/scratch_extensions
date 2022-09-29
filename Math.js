@@ -1,3 +1,7 @@
+const slist = function(l) {
+    l.join(", ");
+}
+
 class Advanced {
     constructor (runtime) {
         this.runtime = runtime;
@@ -23,7 +27,10 @@ class Advanced {
                         }
                     }
                 }
-            ]
+            ];
+            exp({a, b}) {
+                return a^b;
+            };
         };
     }
 }
@@ -71,7 +78,13 @@ class Vector {
                         }
                     }
                 }
-            ]
+            ];
+            vec2({x, y}) {
+                return slist([x, y]);
+            }
+            vec3({x, y, z}) {
+                return slist([x, y, z]);
+            }
         };
     }
 }
