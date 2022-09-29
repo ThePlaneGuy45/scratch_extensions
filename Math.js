@@ -1,5 +1,5 @@
 const slist = function(l) {
-    l.join(", ");
+    return l.join(", ");
 }
 
 class Advanced {
