@@ -27,7 +27,7 @@ class Advanced {
                         }
                     }
                 }
-            ];
+            ]
             exp({a, b}) {
                 return a^b;
             };
@@ -78,7 +78,7 @@ class Vector {
                         }
                     }
                 }
-            ];
+            ]
             vec2({x, y}) {
                 return slist([x, y]);
             }
