@@ -10,6 +10,7 @@ class Advanced {
     getInfo () {
         return {
             id: 'advanced',
+            color1: '#ff1a1a',
             name: 'Advanced Math',
             blocks: [
                 {
